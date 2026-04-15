@@ -1,16 +1,28 @@
-## Advanced Problem: Optimization (Gradient Descent)
+# Scientific Computing Benchmark Suite
 
-Implemented gradient-based optimization for minimizing objective functions.
+This repository contains research-style computational mathematics problems designed for evaluating AI systems on multi-step scientific reasoning tasks.
 
-### Features:
-- Iterative optimization with convergence criteria
-- Gradient-based updates
-- Tracking of loss function values
-- Convergence analysis based on tolerance and step size
+## Key Areas Covered
 
-### Example:
-Minimizing:
-f(x) = (x - 3)^2
+- Numerical Linear Algebra (Power Iteration)
+- Differential Equations (Runge-Kutta 4th Order)
+- Optimization Algorithms (Gradient Descent)
 
-Gradient:
-f'(x) = 2(x - 3)
+## Implemented Methods
+
+### 1. Eigenvalue Approximation (Power Iteration)
+- Iterative method for dominant eigenvalue computation
+
+### 2. ODE Solver (Runge-Kutta 4th Order)
+- High-accuracy numerical integration
+- Compared with analytical solutions
+
+### 3. Optimization (Gradient Descent)
+- Iterative minimization of objective functions
+- Convergence tracking and tolerance-based stopping
+
+## Objectives
+
+- Build benchmark-style scientific problems
+- Evaluate numerical correctness and stability
+- Simulate research-level computational workflows
